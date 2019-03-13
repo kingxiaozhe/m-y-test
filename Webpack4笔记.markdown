@@ -234,7 +234,7 @@ module:{
 
 	npm install html-webpack-plugin —save-dev
 
-[image](http://po8ep06el.bkt.clouddn.com/file/markdown/jpg/tset1.png)
+![image](http://po8ep06el.bkt.clouddn.com/file/markdown/jpg/tset1.png)
 
 2.提取分离css
 
