@@ -374,6 +374,7 @@ d. 缩小文件匹配范围
         }
     }
 }
+![image-20190311232853222](http://po8ep06el.bkt.clouddn.com/file/markdown/jpg/test2.png)
 
 
 设置noParse
@@ -383,7 +384,7 @@ d. 缩小文件匹配范围
 给babel-loader设置缓存
 
 babel-loader提供了cacheDirectory特定选项（默认：false）:设置时，给定的目录将用于缓存加载器的结果。
-
+![image-20190311232853222](http://po8ep06el.bkt.clouddn.com/file/markdown/jpg/test3.png)
 
 
 
@@ -400,11 +401,11 @@ babel-loader提供了cacheDirectory特定选项（默认：false）:设置时，
 	基本原理：在webpack构建中，我们需要使用Loader对js，css,图片，字体等文件做转换操作，并且转换的文件数量也是非常大，且这些转换操作不能并发处理文件，而是需要一个一个文件进行处理，HappyPack的基本原理是将这部分任务分解到多个子进程中去并行处理，子进程处理完成之后吧结果发送到主进程中，从而减少总的构建时间。
 
 npm install --save-dev happypack
-
+![image-20190311232853222](http://po8ep06el.bkt.clouddn.com/file/markdown/jpg/test3.png)
 
 
 六. Webpack4 课程总结
 
-课程资源
+[课程资源](http://po8ep06el.bkt.clouddn.com/file/zip%E8%AF%BE%E4%BB%B6%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99.rar)
 
 
